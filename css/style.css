@@ -1,0 +1,77 @@
+/* ********** Mis Styles ********** */
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+/* Imágenes de fondo para los avisos */
+.avisos-img-primitiva {
+  background: url('./../img/avi_bolas.jpg');
+  background-size: cover;
+}
+.avisos-img-euromillones {
+  background: url('./../img/avi_euro.jpg');
+  background-size: cover;
+}
+.avisos-img-loteria {
+  background: url('./../img/avi_euros.jpg');
+  background-size: cover;
+}
+
+.info-cabecera {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+/* APUESTAS */
+
+/* Footer */
+.page-footer {
+  color: #333;
+  background-color: #f3f3f3;
+}
+
+.u-flowText {
+  font-size: 1.25rem;
+}
+
+/* ********** Media Queries Small ********** */
+@media (min-width: 576px) {
+}
+
+/* ********** Media Queries Medium ********** */
+@media (min-width: 768px) {
+  .u-flowText {
+    font-size: 1.5rem;
+  }
+}
+
+/* ********** Media Queries Large ********** */
+@media (min-width: 992px) {
+  .nav-item:hover {
+    background-color: transparent;
+  }
+
+  .u-flowText {
+    font-size: 1.75rem;
+  }
+}
+
+/* ********** Media Queries ExtraLarge ********** */
+@media (min-width: 1200px) {
+}
